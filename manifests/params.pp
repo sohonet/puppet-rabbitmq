@@ -18,7 +18,7 @@ class rabbitmq::params {
     }
     'Debian': {
       $manage_python         = true
-      $python_package        = 'python'
+      $python_package        = 'python2'
       $package_ensure        = 'installed'
       $package_name          = 'rabbitmq-server'
       $service_name          = 'rabbitmq-server'
